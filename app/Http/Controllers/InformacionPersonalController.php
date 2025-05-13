@@ -20,7 +20,7 @@ class InformacionPersonalController extends Controller
      */
     public function create()
     {
-        //
+        return view('cementerio.inhumacion.informacion_personal.create');
     }
 
     /**

@@ -44,5 +44,12 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    
+    }
+    public function adminlte_image(){
+        return 'https://secretariadeinclusionsocial.co/appinclusionsocial/recursos/imagenes/logocah.png';
+    }
+    public function adminlte_desc(){
+        return 'Administrador';
     }
 }
